@@ -28,11 +28,11 @@ val z4 = 2 +: x //2 在前
 //println(z3)
 
 
-val a = List(2,3,4,5)
+val a = Seq(2,3,4,5)
 //val b = a.reduceLeftOption(_ + _)
 //val b = a.repr
 //val b = a.reverse_:::(List(1, 11))
 //val b = a.runWith(i => i + 1)
-//val b = a.slice(1, 100)
+val b = a.slice(0, 2)
 //val b = a.sliding(2, 3).foreach(println)
 //val b = a.map(_ + 1)
